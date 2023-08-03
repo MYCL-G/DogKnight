@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1543897611812477759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543897611812477757}
+  - component: {fileID: 1543897611812477756}
+  m_Layer: 0
+  m_Name: mMouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543897611812477757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543897611812477759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -68.09193, y: -308.48352, z: -183.13397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1543897611812477756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543897611812477759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070884cf39f72ee4083f562c2fcc2398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point: {fileID: 2800000, guid: b77dee52b6c67af45b1c84e21b642c92, type: 3}
+  doorway: {fileID: 2800000, guid: e43c95c5e95e55a47ae015d73e8d4dda, type: 3}
+  attack: {fileID: 2800000, guid: 89e9d22a84fb44a4b8d62cbde6011875, type: 3}
+  target: {fileID: 2800000, guid: 3381c30677fef904a857cb332c149ec6, type: 3}
+  arrow: {fileID: 2800000, guid: 33eb85a5aac8b904b959cc29818725ab, type: 3}
